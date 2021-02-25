@@ -22,9 +22,10 @@
 
 .card-category {
   position: relative;
-  background-size: cover;
-  background-position: top;
-  height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
