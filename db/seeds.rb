@@ -62,10 +62,14 @@ puts "Created #{Pokemon.count} Pokemon 🐢"
 
 puts "Finished Seeding 🌱"
 
+names = %w(Water\ Gun Thunderbolt Ember Dig Tackle Body\ Slam)
 
+names.each do |move|
+  Move.create!(name: move)
+end
 
 # Psuedo Code
-# Generate the moves table
-# Generate the learned_moves table
+# Generate the moves table X
+# Generate the pokemon_moves table X
 # Add our associations and validations
 # Crash test our data brick in rails c
