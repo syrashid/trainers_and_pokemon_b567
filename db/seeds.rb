@@ -61,3 +61,11 @@ puts "Created #{Pokemon.count} Pokemon 🐢"
 
 
 puts "Finished Seeding 🌱"
+
+
+
+# Psuedo Code
+# Generate the moves table
+# Generate the learned_moves table
+# Add our associations and validations
+# Crash test our data brick in rails c
